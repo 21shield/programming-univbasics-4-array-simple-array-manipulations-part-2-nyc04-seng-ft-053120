@@ -20,3 +20,8 @@ def using_delete(array,string)
   # delete takes a parameter to be removed from obj, and returns that element,
   array.delete(string)
 end
+
+def using_delete_at (array, int)
+  # removes element at specific index
+  array.delete_at(int)
+end
