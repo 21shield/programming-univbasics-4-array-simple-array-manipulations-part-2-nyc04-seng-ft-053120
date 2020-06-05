@@ -8,5 +8,6 @@ def using_insert(array, element)
 end
 
 def using_uniq(array)
+  # .uniq removes duplicates and returns array without duplicate
   array.uniq
 end
