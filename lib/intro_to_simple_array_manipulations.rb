@@ -15,3 +15,8 @@ end
 def using_flatten(array)
   array.flatten
 end
+
+def using_delete(array,string)
+  # delete takes a parameter to be removed from obj, and returns that element,
+  array.delete(string)
+end
