@@ -6,3 +6,7 @@ def using_insert(array, element)
   # insert takes the index at where to input, new element
   array.insert(4,element)
 end
+
+def using_uniq(array)
+  array.uniq
+end
