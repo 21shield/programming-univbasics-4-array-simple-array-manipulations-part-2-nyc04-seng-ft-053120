@@ -11,3 +11,7 @@ def using_uniq(array)
   # .uniq removes duplicates and returns array without duplicate
   array.uniq
 end
+
+def using_flatten(array)
+  array.flatten
+end
